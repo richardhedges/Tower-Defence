@@ -1,0 +1,52 @@
+name: Bug Report
+description: Report a problem with the game
+title: "[Bug]: "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please complete the form below.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: What browser/device are you using?
+      placeholder: Chrome on Windows 11
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: What did you do? What happened?
+      placeholder: |
+        1. Start the game
+        2. Join multiplayer
+        3. Place a turret
+        4. It crashes
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - 🟢 Minor
+        - 🟡 Moderate
+        - 🔴 Game-breaking
+    validations:
+      required: true
