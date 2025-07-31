@@ -152,7 +152,7 @@ Players select from a variety of **hero classes**, each with unique combat abili
 
 ---
 
-## 🔐 Future Monetization Ideas
+## 🔐 Future Monetisation Ideas
 - Battlepass (seasonal unlocks)
 - Cosmetic tower skins / hero skins
 - Pets or avatars
@@ -180,4 +180,4 @@ Players select from a variety of **hero classes**, each with unique combat abili
 ## 🧠 Notes
 - Tiled can still be used for **modular prefab design** (e.g., path segments)
 - Procedural levels can be **chunk-based**, not 100% random
-- Networking sync must be prioritized early for smooth co-op
+- Networking sync must be prioritised early for smooth co-op
