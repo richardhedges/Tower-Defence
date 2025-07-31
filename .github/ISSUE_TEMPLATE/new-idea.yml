@@ -1,0 +1,60 @@
+name: New Idea
+description: Propose a new game mechanic, feature or gameplay concept
+title: "[Idea]: "
+labels: ["idea"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💡 **Thanks for sharing your idea!** Please complete the fields below to help us understand and evaluate it.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Idea Summary
+      description: Briefly describe your idea in one sentence
+      placeholder: e.g., "Add a Harvester class for resource gathering and factory management"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description
+      description: Expand on your idea. How does it work? What is the player experience like?
+      placeholder: |
+        The Harvester collects raw materials from nodes in the world and delivers them to processing factories, which output resources used to fuel towers...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Idea Category
+      options:
+        - Gameplay Mechanic
+        - UI / UX
+        - Visual / Art
+        - Multiplayer / Coop
+        - Meta Progression
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Why is this idea valuable?
+      description: How does it improve the game? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Potential Drawbacks or Concerns
+      description: Are there any challenges, performance issues, or balance problems this might introduce?
+    validations:
+      required: false
